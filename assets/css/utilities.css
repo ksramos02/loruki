@@ -1,0 +1,171 @@
+.container {
+  max-width: 1280px;
+  margin: 0 40px;
+}
+
+.card {
+  background: var(--secondary-color);
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+/* button */
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  /* background: var(--primary-color); */
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  margin: 15px 0;
+  background: linear-gradient(
+    to left,
+    #ed213a 0%,
+    #93291e 50.39%,
+    #ed213a 100%
+  );
+  transition: all 0.4s ease-in-out;
+  background-size: 200% auto;
+}
+
+.btn:hover {
+  background-position: right center;
+  color: #fff;
+  box-shadow: 0px 0px 15px rgba(7, 143, 255, 0.233);
+}
+
+.shadow {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-secondary {
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+/* padding */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
+
+/* margin */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mr-2 {
+  margin-right: 1.5rem;
+}
+
+.mr-3 {
+  margin-right: 2rem;
+}
+.mr-4 {
+  margin-right: 3rem;
+}
+
+.mr-5 {
+  margin-right: 4rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
